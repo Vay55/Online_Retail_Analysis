@@ -23,7 +23,7 @@ The project focuses on the type of responsibilities commonly found in Data QA, D
 # Project Structure
 
 ```text
-online-retail-qa-project/
+online-retail/
 │
 ├── raw_data/
 │   └── OnlineRetail.csv
