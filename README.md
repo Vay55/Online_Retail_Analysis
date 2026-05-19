@@ -147,13 +147,14 @@ SQL validation queries were written to perform warehouse integrity checks.
 - duplicate invoice investigation
 - cancellation rule validation
 
-### Example SQL QA Rule
+### QA Rule
 
 ```sql
-SELECT COUNT(*)
-FROM fact_sales
-WHERE InvoiceNo LIKE 'C%'
-AND Quantity > 0;
+invalid_cancellations = df[
+    df["InvoiceNo"].str.startswith("C")
+    &
+    (df["Quantity"] > 0)
+]
 ```
 
 ### Validation Result
