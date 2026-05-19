@@ -10,11 +10,11 @@ The project focuses on the type of responsibilities commonly found in Data QA, D
 
 ---
 
-# Technologies Used
+# Tech stack
 
 - Python
-- Pandas
-- SQLite
+-- Pandas
+-- SQLite
 - SQL
 - CSV Data Processing
 
@@ -219,4 +219,4 @@ Possible future enhancements include:
 
 # Dataset
 
-Dataset sourced from Kaggle.
+Dataset sourced from [Kaggle](https://www.kaggle.com/datasets/vijayuv/onlineretail?resource=download).
