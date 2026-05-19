@@ -6,8 +6,6 @@ This project simulates a real-world data quality assurance and warehouse validat
 
 The goal of the project was to investigate data quality issues, validate business rules, clean transactional retail data, and perform source-to-target warehouse validation using Python, Pandas, SQL, and SQLite.
 
-The project focuses on the type of responsibilities commonly found in Data QA, Data Engineering, and Analytics Engineering roles.
-
 ---
 
 # Tech stack
