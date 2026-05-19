@@ -150,11 +150,10 @@ SQL validation queries were written to perform warehouse integrity checks.
 ### QA Rule
 
 ```sql
-invalid_cancellations = df[
-    df["InvoiceNo"].str.startswith("C")
-    &
-    (df["Quantity"] > 0)
-]
+SELECT COUNT(*)
+FROM fact_sales
+WHERE InvoiceNo LIKE 'C%'
+AND Quantity > 0;
 ```
 
 ### Validation Result
