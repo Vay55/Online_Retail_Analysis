@@ -1,4 +1,4 @@
-# Online Retail Data QA & Warehouse Validation Project
+# Online Retail Data Validation Project
 
 ## Overview
 
